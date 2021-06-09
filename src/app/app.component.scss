@@ -1,0 +1,16 @@
+#subscriber-element {
+    height: 75vh;
+    width: 75vw;
+    background-color: #4a4a4a;
+    position: relative;
+    * {
+        width: 0;
+        height: 0;
+        opacity: 0;
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    *.ot-layout {
+        opacity: 1;
+    }
+}
